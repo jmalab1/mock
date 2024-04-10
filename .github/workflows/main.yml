@@ -20,4 +20,4 @@ jobs:
           # port, default to 3000
           port: 3000
       - name: Make test call
-        run: curl -X GET http://localhost:3000/endpoint
+        run: curl -X GET http://localhost:3000/posts
